@@ -6212,7 +6212,7 @@ declare namespace THREE {
     }
 
     export class EdgesGeometry extends BufferGeometry {
-        constructor(geometry: BufferGeometry, thresholdAngle: number);
+        constructor(geometry: BufferGeometry, thresholdAngle?: number);
     }
 
     export class ExtrudeGeometry extends Geometry {
